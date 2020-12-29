@@ -1,5 +1,5 @@
 /**
- * @file BattleshipGame.cpp
+ * @file Battleship.cpp
  *
  * @brief A Battleship game simulated in terminal. 
  * Implemented with OOP principles.    
