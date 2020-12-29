@@ -542,7 +542,7 @@ char DisplayMainMenu()
     return menuSelection;
 }
 
-//Gets the player’s name and return the value.
+//Gets the playerÂ’s name and return the value.
 string GetPlayerName(int playerIndex)
 {
     string playerName;
@@ -561,7 +561,7 @@ void EnterToContinue()
     cout << "\nPress enter to continue!";
     cin.clear(); //clears the stream
     cin.ignore(50, '\n'); //ignores next line(enter)
-    cin.get(); //“cin>>” expects at least one char input, just enter doesn’t work    
+    cin.get(); //Â“cin>>Â” expects at least one char input, just enter doesnÂ’t work    
 }
 
 
@@ -615,5 +615,4 @@ int main()
         cout << "Goodbye!" << endl;
         return 0;
     }
-
 }
